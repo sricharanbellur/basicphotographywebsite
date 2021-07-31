@@ -230,6 +230,19 @@
             </div>
            <br><br>
            <br> <center>
+        <script>
+          var scrollToTopBtn = document.getElementById("scrollToTopBtn")
+var rootElement = document.documentElement
+
+function scrollToTop() {
+  // Scroll to top logic
+  rootElement.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })
+}
+scrollToTopBtn.addEventListener("click", scrollToTop)
+        </script>
         <button id="scrollToTopBtn">☝️</button>
             <footer class = "footer" style="background-color:rgb(134, 171, 184);">
                 <p style="color:white;"><b><a href="home.html"> HOME || </a>
