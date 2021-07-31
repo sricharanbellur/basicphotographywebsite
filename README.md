@@ -2,4 +2,4 @@
 
 https://photographypage.herokuapp.com/
 
-Visit the website by clicksing above link
+Visit the website by clicking above link
